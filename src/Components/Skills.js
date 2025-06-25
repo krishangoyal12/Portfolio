@@ -2,7 +2,7 @@ import React from 'react';
 import { CgCPlusPlus } from "react-icons/cg";
 import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman} from "react-icons/si";
+import {SiExpress, SiMongodb, SiPostman, SiTailwindcss} from "react-icons/si";
 
 const Skills = ({skill}) => {
     const icon = {
@@ -18,6 +18,7 @@ const Skills = ({skill}) => {
         Github : <FaGithub/>,
         Npm : <FaNpm/>,
         Figma : <FaFigma/>,
+        'Tailwind CSS': <SiTailwindcss/>
     }
     
   return (
