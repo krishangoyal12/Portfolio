@@ -510,6 +510,36 @@ footer h4{
   color: inherit;
 }
 
+.page-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.page-control-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.page-control-btn:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.page-control-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 @media(max-width:750px){
   footer{
     height: 110px;
