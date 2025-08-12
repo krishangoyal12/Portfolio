@@ -20,6 +20,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     SkillHireDesc:"A web platform designed to connect clients with short-term and long-term service providers. Made with a vision to provide an opportunity for 20M+ Indians who are able and willing to work but can not find the right path for it.",
     SkillHireGithub:"https://github.com/kalviumcommunity/S84_KrishanGoyal_Capstone_SkillHire",
     SkillHireWebsite:"https://krishan-skillhire.netlify.app/",
+
+    VideoCallAppDesc:"A full-stack, real-time video and audio chat application built with modern web technologies. It allows multiple users to join a room and communicate via peer-to-peer connections, facilitated by a central signaling server.",
+    VideoCallAppGithub:"https://github.com/krishangoyal12/Video-Chat-Application",
+    VideoCallAppWebsite:"https://krishan-video-call-app.netlify.app/",
   }
 
   let show ='';

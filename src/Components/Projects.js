@@ -4,6 +4,7 @@ import SkillHireImage from '../images/SkillHire.png'
 import CoWriteImage from '../images/CoWrite.png';
 import EmotiSenseImage from '../images/EmotiSense.png';
 import apiwizImage from '../images/apiwiz.png';
+import VideoCallApp from '../images/VideoCallApp.png'
 
 const Projects = () => {
   return (
@@ -14,6 +15,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={CoWriteImage} projectName="CoWrite" />
         <ProjectBox projectPhoto={EmotiSenseImage} projectName="EmotiSense" />
         <ProjectBox projectPhoto={apiwizImage} projectName="apiwiz" />
+        <ProjectBox projectPhoto={VideoCallApp} projectName="VideoCallApp" />
       </div>
 
     </div>
